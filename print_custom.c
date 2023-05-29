@@ -30,9 +30,10 @@ int print_S(va_list l, flags_t *f)
 		count += _puts(res);
 	}
 	else
-}
+	{
 		count += _putchar(s[i]);
-
+	}
+	}
 	return (count);
 }
 /**
