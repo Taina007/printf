@@ -47,7 +47,7 @@ void print_number(int n)
 
 	if (n < 0)
 	{
-		_putchar('_');
+		_putchar('-');
 		n1 = -n;
 	}
 	else
@@ -72,7 +72,7 @@ int count_digit(int i)
 		u = i * -1;
 	else
 		u = i;
-	while (u != 10)
+	while (u != 0)
 	{
 		u /= 10;
 		d++;
